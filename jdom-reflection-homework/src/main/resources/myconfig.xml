@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bean>
+	<object>
+		<class>by.htp.jdom_reflection_homework.ConcreteComponent</class>
+		<initialization method="init" />
+		<call-method>
+			<name>execute</name>
+			<params>
+				<param name="params" value="111" />
+			</params>
+			<return type="String" />
+		</call-method>
+	</object>
+
+</bean>
